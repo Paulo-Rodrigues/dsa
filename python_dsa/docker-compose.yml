@@ -1,0 +1,6 @@
+services:
+  python_dsa:
+    build: .
+    container_name: python_dsa
+    volumes:
+      - .:/python_dsa

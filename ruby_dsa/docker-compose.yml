@@ -1,0 +1,6 @@
+services:
+  ruby_dsa:
+    build: .
+    container_name: ruby_dsa
+    volumes:
+      - .:/ruby_dsa

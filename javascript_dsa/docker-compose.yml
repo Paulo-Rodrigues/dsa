@@ -1,0 +1,6 @@
+services:
+  javascript_dsa:
+    build: .
+    container_name: javascript_dsa
+    volumes:
+      - .:/javascript_dsa
